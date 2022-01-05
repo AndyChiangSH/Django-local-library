@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'mhg-qmwta^7k(7i&+)fb7ryv$zd#_p
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['young-fortress-55289.herokuapp.com']
 
 
 # Application definition
